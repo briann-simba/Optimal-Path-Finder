@@ -1,0 +1,148 @@
+{
+    "towns": [
+        {
+            "name": "Nairobi",
+            "roads_to": [
+                {"Nakuru": 237},
+                {"Thika": 45},
+                {"Mombasa": 483}
+            ]
+        },
+        {
+            "name": "Nakuru",
+            "roads_to": [
+        				{"Nairobi": 237},
+        			  {"Kisumu": 185},
+        				{"Eldoret": 170}
+              ]
+        },
+        {
+            "name": "Kisumu",
+            "roads_to": [
+          		  {"Nakuru": 185},
+                {"Eldoret": 122}
+            ]
+        },
+        {
+            "name": "Thika",
+            "roads_to": [
+        				{"Nairobi": 45},
+        				{"Isiolo": 266},
+        				{"Kitui": 130}
+            ]
+        },
+        {
+            "name": "Mombasa",
+            "roads_to": [
+                {"Nairobi": 483},
+        				{"Malindi": 116},
+        				{"Kitui": 442}
+            ]
+        },
+		{
+			"name": "Garissa",
+			"roads_to":[
+				{"Isiolo": 349},
+				{"Malindi": 347 }
+			]
+		},
+		{
+			"name": "Isiolo",
+			"roads_to": [
+				{"Garissa": 349},
+				{"Thika": 266}
+			]
+		},
+		{
+			"name": "Eldoret",
+			"roads_to": [
+				{"Kisumu": 122},
+				{"Nakuru": 170}
+			]
+		},
+		{
+			"name": "Malindi",
+			"roads_to": [
+				{"Garissa": 347},
+				{"Mombasa": 116 },
+        {"Kitui": 442}
+			]
+		},
+		{
+			"name" : "Kitui",
+			"roads_to": [
+				{"Malindi": 442},
+				{"Thika": 130}
+			]
+		}
+
+    ],
+
+    "straight_line_distances" :
+        {
+			"Kisumu_Nakuru": 146,
+			"Kisumu_Nairobi" : 264,
+			"Kisumu_Thika" : 278,
+			"Kisumu_Mombasa": 700,
+			"Kisumu_Eldoret": 87,
+			"Kisumu_Isiolo": 319,
+			"Kisumu_Garissa" : 544,
+			"Kisumu_Malindi" : 691,
+			"Kisumu_Kitui" : 385,
+
+			"Nakuru_Nairobi": 138,
+			"Nakuru_Thika": 139,
+			"Nakuru_Mombasa" : 577,
+			"Nakuru_Eldoret": 128,
+			"Nakuru_Isiolo": 182,
+			"Nakuru_Garissa" : 394,
+			"Nakuru_Malindi" : 550,
+			"Nakuru_Kitui" : 243,
+
+			"Nairobi_Thika" : 38,
+			"Nairobi_Mombasa" : 440,
+			"Nairobi_Eldoret": 264,
+			"Nairobi_Isiolo": 202,
+			"Nairobi_Garissa" : 327,
+			"Nairobi_Malindi" : 424,
+			"Nairobi_Kitui" : 129,
+
+			"Thika_Mombasa" : 442,
+			"Thika_Eldoret": 266,
+			"Thika_Isiolo": 160,
+			"Thika_Garissa" : 290,
+			"Thika_Malindi" : 414,
+			"Thika_Kitui" : 108,
+
+			"Mombasa_Eldoret": 708,
+			"Mombasa_Isiolo": 540,
+			"Mombasa_Garissa" : 401,
+			"Mombasa_Malindi" : 104,
+			"Mombasa_Kitui" : 349,
+
+			"Eldoret_Isiolo": 257,
+			"Eldoret_Garissa" : 496,
+			"Eldoret_Malindi" : 676,
+			"Eldoret_Kitui": 369,
+
+			"Isiolo_Garissa" : 243,
+			"Isiolo_Malindi" : 486,
+			"Isiolo_Kitui" : 198,
+
+			"Garissa_Malindi" : 314,
+			"Garissa_Kitui" : 211,
+
+			"Malindi_Kitui": 312,
+
+			"Kisumu": 0,
+			"Nairobi": 0,
+			"Nakuru": 0,
+			"Thika": 0,
+			"Mombasa": 0,
+			"Eldoret": 0,
+			"Garissa": 0,
+			"Isiolo" : 0,
+			"Malindi" : 0,
+			"Kitui" : 0
+ 	   }
+}

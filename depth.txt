@@ -1,0 +1,9 @@
+DFS(G, v):
+	S is a stack
+	S.push(v)
+	while S != empty:
+		current = S.pop()
+		      if !v.discovered:
+		      	v.discovered = True
+			 for edge in v.edges:
+			 	S.push(w)

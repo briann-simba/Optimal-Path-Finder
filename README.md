@@ -32,5 +32,5 @@ The data is imported into the main function and used to build the graphs in the 
 
 The graph is visualised using pygame under map.py. 
 
-# Depandancies
+# Depandencies
 pygame

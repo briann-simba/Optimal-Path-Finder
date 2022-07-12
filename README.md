@@ -1,10 +1,10 @@
 # Search Algorithms to find a goal node. 
 
 ## Breadth First Search. 
-This is an algorithm that checks all connetcted nodes and adds them to a queue. The order in which the nodes are searched are the order in which they are appended to the queue, that is, First in First Out. FIFO
+This is an algorithm that checks all connected nodes and adds them to a queue. The order in which the nodes are searched are the order in which they are appended to the queue, that is, First in First Out. FIFO
 
 ## Depth First Search
-This is an algorithm that checks all connetcted nodes and adds them to a stack. The order in which the nodes are searched are the order in which they are appended to the stack, that is, Last in First Out. LIFO
+This is an algorithm that checks all connected nodes and adds them to a stack. The order in which the nodes are searched are the order in which they are appended to the stack, that is, Last in First Out. LIFO
 
 ## A star Search
 This is an algorithm similar to Djikstra's algorithm. It uses a heuristic to measure whether or not it is getting closer to the goal node. The node objects are stored in a priority queue with the node with the lowest f() value being popped first from the priority queue. In this implementation, the heuristic I used was the Euclidean distance.
